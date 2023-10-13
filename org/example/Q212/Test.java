@@ -13,7 +13,7 @@ public class Test {
         }catch(Exception e){
             num = 200;
         }finally {
-            num = 300;
+            num = 0;
         }
         System.out.println(num);
     }
