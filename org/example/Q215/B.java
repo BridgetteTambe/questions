@@ -1,5 +1,9 @@
 package org.example.Q215;
 
+import org.example.Q1.FizzBuzz;
+
+import java.util.stream.IntStream;
+
 public class B extends A{
     public int modifyVal(int val){
         if(checkValue(val)){
