@@ -8,10 +8,11 @@ public enum Letter {
         this.v = v;
     }
 
-    public String toString() { return String.valueOf(ALPHA.v); }
+   // public String toString() { return String.valueOf(ALPHA.v); }
+   public String toString() { return String.valueOf(v); }
 
     public static void main(String[] args) {
-        System.out.println(Letter.values()[2]);
+        System.out.println(Letter.values()[1]);
     }
 
 }

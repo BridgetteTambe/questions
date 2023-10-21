@@ -5,7 +5,7 @@ public class Test {
         try{
             throw new RuntimeException("Something happened");
         }catch(Exception e){
-            throw new GeneralException.SpecificException(e.getMessage());
+          //  throw SpecificException(e.getMessage());
 
         }
     }
@@ -21,11 +21,12 @@ public class Test {
 }
 
 class GeneralException extends Exception {
-    public GeneralException(String s) {
 
+    public GeneralException(String s) {
+        super(s);
     }
 
-   static class SpecificException extends GeneralException{
+   static class SpecificException extends Exception{
         public SpecificException(String s) {
             super(s);
 

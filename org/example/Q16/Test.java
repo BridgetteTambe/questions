@@ -9,8 +9,8 @@ public class Test {
         Consumer<String> c2 = arg -> System.out.println(arg);
         c2.accept("c2 accepted");
         c2.andThen(c1).accept("after then");
-        c2.andThen(c1).accept("after if");
+       // c2.andThen(c1).accept("after if");
         c1.accept("c1 accepted");
-        c2.accept("c2 accepted again");
+       // c2.accept("c2 accepted again");
     }
 }

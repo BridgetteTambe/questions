@@ -5,7 +5,7 @@ public class Main {
      static class Student {
         String classname;
 
-        public Student(String classname) {
+        Student(String classname) {
             this.classname = classname;
         }
     }

@@ -1,6 +1,6 @@
 package org.example.Q36;
 
-public class X {
+public  class X {
 
     private String name;
 

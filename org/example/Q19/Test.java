@@ -7,10 +7,10 @@ public class Test {
         var items = List.of(new Item("A", 10), new Item("B", 2),
                 new Item("C", 12), new Item("D", 5), new Item("e", 6));
 
-       // if (items.stream().filter(i -> count < 0).findAny()) {
-
+        //if(items.stream().filter(i -> i.count < 0).findFirst()) {
+            //if (items.stream().anyMatch(i -> i.count < 0 )) {
             System.out.println("There is an item for which variable count is below zero");
         }
-    }
-//}
+
+}
 

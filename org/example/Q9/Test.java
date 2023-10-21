@@ -12,7 +12,7 @@ public class Test {
             Test t = new Test();
             t.p();
             t.q();
-        } catch (L e ) {
+        } catch (L |N e) {    // and L e
             System.out.println("Exception caught");
         }
     }

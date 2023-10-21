@@ -5,7 +5,9 @@ public class main {
         int result = 0;
 
         Abacus aba = (int e, int f) -> { return e * f; };
-        Abacus aba1 = (a, b) -> a * b;
+       Abacus aba1 = (a, b) -> a * b;
+
+
 
 result = aba.calc(10,20);
         System.out.println(result);

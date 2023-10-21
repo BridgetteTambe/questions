@@ -14,11 +14,13 @@ public class FizzBuzz {
 
 
     public static void main(String[] args) {
-        IntStream.rangeClosed(1,100).mapToObj(FizzBuzz::convert).forEach(System.out::println);
+        //IntStream.rangeClosed(1,100).mapToObj(FizzBuzz::convert).forEach(System.out::println);
+        //IntStream.rangeClosed(1, 100).mapToObj(FizzBuzz::convert).forEach(System.out::println);
+           // IntStream.range(1, 100).mapToObj(FizzBuzz::convert).forEach(System.out::println);
+        IntStream.range(1, 100).mapToObj(FizzBuzz::convert).forEach(System.out::println);
+        //IntStream.range(1, 100).mapToObj(FizzBuzz::convert).forEach(System.out::println);
 
-        //IntStream.range(1,100).map(x -> convert(x)).forEach(System.out::println);
-
-//for (int i = 1; i<1001; i++){
+//for (int i = 1; i<101; i++){
 //    System.out.println(convert(i));
 //}
     }

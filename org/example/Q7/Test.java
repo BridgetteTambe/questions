@@ -23,7 +23,9 @@ t.setAge(12);
 
         Integer [] ints ={1,2,3,4,5,6,7};
        var list = Arrays.asList(ints);
-        UnaryOperator<Integer> uo = x -> { return x * 3; };
+//        UnaryOperator<Integer> uo = x -> { return x * 3; };
+//        list.replaceAll(uo);
+        UnaryOperator<Integer>uo = (var x ) -> (x * 3);
         list.replaceAll(uo);
     }
 }

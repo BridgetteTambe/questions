@@ -10,7 +10,7 @@ public class Main {
         double starts =0.0;
         double ratio = 1.0;
         BinaryOperator<Double> bo = (a, b) -> a+b;
-      //  double totalSalary = list.stream().map(e -> e.getSalary() * ratio).reduce(starts,bo);
+       // double totalSalary = list.stream().map(e -> e.getSalary() * ratio).reduce(starts,bo);
         double totalSalary = list.stream().mapToDouble(e -> e.getSalary() * ratio).sum();
         System.out.println("Total salary =" + totalSalary);
     }

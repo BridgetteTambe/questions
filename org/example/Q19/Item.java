@@ -6,6 +6,8 @@ public class Item {
     public int count;
 
     public Item(String nme, int count){
+        this.count = count;
+        this.name = name;
 
     }
 }

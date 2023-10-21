@@ -11,7 +11,7 @@ public class Test {
 
     Integer [] intArray = {2,1,3,4,5};
     List<Integer> list = new ArrayList<>(Arrays.asList(intArray));
-    list.parallelStream().forEachOrdered(e -> System.out.print(e + " "));
+    list.parallelStream().forEach(e -> System.out.print(e + " "));
 
     }
 }
